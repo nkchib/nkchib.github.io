@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<!-- The tags below specify the meta (browser data) and page title -->
+  <head>
+    <meta charset="utf-8">
+    <title>Bio</title>
+  </head>
+<!-- The tags below are what is displayed on the actual page -->
+  <body>
+    <a href="index.html">Home</a>
+	<a href="portfolio.html">Bio</a>
+	<a href="portfolio.html">Portfolio</a>
+    <h1>My Bio</h1>
+    <img src="images/bio.jpg" height="250">
+	<img src="images/bio (2).jpg" height="400">
+	<img src="images/bio (3).jpg" height="250">
+  </body>
+  <body style="background-color:lightred;">
+  <style>
+/* unvisited link */
+a:link {
+    color: darkblue;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+body {
+    background-image: url("paper.gif");
+}
